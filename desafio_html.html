@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Company page</title>
-    </head>
-    <body>
-        <paragraph> Welcome! Here you can find the following things:</paragraph>
-        <ol>
-            <em> <li> <a href="#logo">Company's logo</a></li></em>
-            <li><a href="#employees">List of employees</a> </li>
-        </ol>
-        
-        
-        <h1>Company's logo
-        <paragraph>Company ueses the following logos:</paragraph>
-        <ul>
-            <li>New logo: </li> <img> source="https://goo.gl/kjzfbE"</img>
-            <li>Old logo: </li> <img> source="https://goo.gl/d2JncW"</img>
-        </ul>
+<html lang="pt-br">
 
-        <h1>List of employees
-        <thead>
-            <th>First name</th>
-            <th>Last name</th>
-        </thead>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome! Here you can find the following things:</h1>
+        <ol>
+            <li>
+                <a href="#logo">
+                    <em>Company's logo</em>
+                </a>
+            </li>
+            <li>
+                <a href="#employees">
+                    List of employees
+                </a>
+            </li>
+        </ol>
+    </header>
+
+    <section>
+        <h2>Company's logo</h1>
+            <p>Company uses the following logos:</p>
+            <ul>
+                <li>
+                    <p>New logo:</p>
+                    <img src="https://goo.gl/kjzfbE" alt="new logo">
+                </li>
+                <li>
+                    <p>Old logo:</p>
+                    <img src="https://goo.gl/d2JncW" alt="old logo">
+                </li>
+            </ul>
+    </section>
+
+    <section>
+        <h2>List of employees</h2>
         <table>
+            <thead>
+                <th scope="col">First name</th>
+                <th scope="col">Last name</th>
+            </thead>
             <tr>
                 <td>Mary</td>
                 <td>Williams</td>
@@ -34,5 +55,7 @@
                 <td>Smith</td>
             </tr>
         </table>
-    </body>
+    </section>
+</body>
+
 </html>
